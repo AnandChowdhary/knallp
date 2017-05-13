@@ -22,7 +22,7 @@ body {
 }
 
 #masthead {
-	background: url("/assets/images/header-bg.jpg") center;
+	background: url("./assets/images/header-bg.jpg") center;
 	color: #fff;
 }
 .hero-text {
@@ -125,7 +125,7 @@ h5 {
 	top: 0;
 	bottom: 0;
 	width: 37.5%;
-	background: url("/assets/images/left1.png") left;
+	background: url("./assets/images/left1.png") left;
 }
 
 #colophon {
