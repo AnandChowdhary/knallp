@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){[].slice.call(document.querySelectorAll(".btn")).forEach(function(t){t.setAttribute("role","button")})});

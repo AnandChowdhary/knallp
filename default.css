@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,700|Open+Sans:400,700");
+
+body {
+	font-family: "Open Sans", sans-serif;
+}
+
+[href="#content"] {
+	position: absolute;
+	top: 20px;
+	right: 100%;
+}
+
+[href="#content"]:focus {
+	right: auto;
+	left: 20px;
+}
+
+@media print {
+	body > *:not(main) {
+		display: none;
+	}
+}
+
+#masthead {
+	background: url("/assets/images/header-bg.jpg") center;
+	color: #fff;
+}
+.hero-text {
+	font-size: 24px;
+	padding: 20vh 0 25vh 0;
+}
+.hero-text h1 {
+	font-weight: bold;
+}
+.hero-text p {
+	max-width: 720px;
+	margin: 35px auto;
+}
+
+.btn-ghost {
+	border-color: #fff;
+	border-width: 2px;
+	color: inherit;
+}
+.btn-ghost:hover {
+	background: rgba(255, 255, 255, 0.2);
+	color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Merriweather", serif;
+}
+
+#masthead nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#masthead nav > ul > li {
+	display: inline-block;
+
+}
+#masthead nav > ul > li > a {
+	color: inherit;
+	display: block;
+	padding: 10px 20px;
+	border-radius: 5px;
+	margin: 30px 0;
+}
+.c2a {
+	font-size: 80%;
+	font-weight: bold;
+	margin-left: 10px !important;
+	background: #cba13b;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+a.logo img {
+	max-height: 50px;
+	margin-top: 25px;
+}
+
+section {
+	position: relative;
+	padding: 10vh 0;
+}
+section.gray {
+	background: whitesmoke;
+}
+.subtitle {
+	color: rgba(0, 0, 0, 0.7);
+	font-size: 110%;
+	margin-top: 20px;
+	max-width: 500px;
+}
+.subtitle.text-center {
+	margin: auto;
+}
+.subtitle::after {
+	content: "";
+	display: block;
+	background: #cba13b;
+	height: 1px;
+	width: 50px;
+	margin: 30px 0 10vh;
+}
+.subtitle.text-center::after {
+	margin: 30px auto 10vh;
+}
+
+.small {
+	font-size: 90%;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+h5 {
+	margin-bottom: 15px;
+	font-size: 110%;
+}
+
+.left1 {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 37.5%;
+	background: url("/assets/images/left1.png") left;
+}
+
+#colophon {
+	color: rgba(255, 255, 255, 0.6);
+	background: #333;
+	padding: 10vh 0;
+	line-height: 2;
+}
+#colophon ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#colophon h4 {
+	margin-bottom: 0;
+	color: #fff;
+	font: inherit;
+	font-weight: bold;
+}
+#colophon a {
+	display: block;
+	color: inherit;
+}
+#colophon i {
+	color: #fff;
+	margin-right: 10px;
+}
+
+#colophon strong {
+	color: #fff;
+}
+
+.ghost-2 {
+	border-color: #cba13b;
+	color: #cba13b;
+	border-width: 1px;
+	font-size: 95%;
+}
