@@ -11,3 +11,7 @@ $(window).scroll(function() {
 		$("body").removeClass("nav-fixed");
 	}
 });
+
+$(".sub-nav").parent().click(function() {
+	$(this).find(".sub-nav").fadeToggle();
+});

@@ -4,6 +4,8 @@ body {
 	font-family: "Open Sans", sans-serif;
 }
 
+a { cursor: pointer }
+
 [href="#content"] {
 	position: absolute;
 	top: 20px;
@@ -199,6 +201,79 @@ h5 {
 	margin-top: 10px;
 }
 
+li { position: relative; }
+
+.sub-nav {
+	display: none;
+}
+
+@media (min-width: 768px) {
+	.sub-nav {
+		position: absolute;
+		background: #fff;
+		color: #444;
+		padding: 10px;
+		border-radius: 5px;
+		width: 200px;
+		left: 0;
+		top: 50px;
+		box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+	}
+	.sub-nav::before {
+		content: "";
+		width: 0;
+		height: 0;
+		position: absolute;
+		left: 33px;
+		top: -10px;
+		border-left: 10px solid transparent;
+		border-right: 10px solid transparent;
+		border-bottom: 10px solid #fff;
+	}
+	.sub-nav.big {
+		width: 600px;
+		right: 0;
+		left: auto;
+	}
+	.sub-nav.big::before {
+		left: auto;
+		right: 80px;
+	}
+}
+
+.sub-nav a {
+	width: 100%;
+	display: block;
+	text-align: left;
+	color: inherit;
+	padding: 10px;
+	padding-bottom: 0;
+}
+.sub-nav a:last-child {
+	padding-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+	.sub-nav {
+		background: whitesmoke;
+		border-radius: 5px;
+		text-align: center;
+		padding: 10px 0;
+		margin-top: 20px;
+	}
+	.sub-nav a {
+		text-align: center;
+		padding: 15px 0;
+	}
+	.sub-nav .col-md:not(:last-child) {
+		margin-bottom: 5px;
+	}
+}
+
+.ion-ios-arrow-down {
+	margin-left: 10px;
+}
+
 @media (max-width: 768px) {
 	.hero-text {
 		font-size: 120%;
@@ -258,4 +333,9 @@ h5 {
 		font-size: 24px;
 		top: 10px;
 	}
+}
+
+.amp {
+	font-family: "Baskerville", "Goudy Old Style", "Palatino", "Book Antiqua", serif;
+	font-style: italic;
 }
