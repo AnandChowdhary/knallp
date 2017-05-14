@@ -47,8 +47,17 @@
 							<img alt="Kings and Alliance" src="./assets/images/logo-light.png">
 						</a>
 					</div>
-					<nav class="col-md-8 text-right">
+					<button class="hidden-md-up mob-nav-link" onclick="$('#nav').fadeIn();">
+						<i class="ion ion-md-menu"></i>
+					</button>
+					<nav id="nav" class="col-md-8 text-right">
+						<button class="close-icon hidden-md-up" onclick="$('#nav').fadeOut();">
+							<i class="ion ion-md-close"></i>
+						</button>
 						<ul>
+							<li class="mt-5 hidden-md-up">
+								<strong>M E N U</strong>
+							</li>
 							<li>
 								<a href="#">
 									Home

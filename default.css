@@ -164,3 +164,59 @@ h5 {
 	border-width: 1px;
 	font-size: 95%;
 }
+
+@media (max-width: 768px) {
+	.hero-text {
+		font-size: 120%;
+		padding: 10vh 0;
+	}
+	section, #colophon {
+		padding: 50px 0;
+	}
+	.col-md:not(:last-child) {
+		margin-bottom: 50px;
+	}
+	.left1 {
+		display: none;
+	}
+	#colophon .col-6:nth-child(1),
+	#colophon .col-6:nth-child(2) {
+		margin-bottom: 50px;
+	}
+	.mob-nav-link,
+	.close-icon {
+		position: absolute;
+		right: 20px;
+		top: 20px;
+		font-size: 36px;
+		background: transparent;
+		border: none;
+		color: inherit;
+	}
+	#masthead nav {
+		display: none;
+		left: 0; right: 0;
+		top: 0; bottom: 0;
+		position: fixed;
+		background: #fff;
+		color: #333;
+		z-index: 9999;
+		overflow: auto;
+	}
+	#masthead nav > ul {
+		width: 100%;
+	}
+	#masthead nav > ul > li {
+		display: block;
+		text-align: center;
+	}
+	#masthead nav > ul > li .c2a {
+		color: #fff;
+		display: inline-block;
+		margin-top: 0;
+	}
+	.close-icon {
+		font-size: 24px;
+		top: 10px;
+	}
+}

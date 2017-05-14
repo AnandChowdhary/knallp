@@ -365,6 +365,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/hack.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 144574,
+		"inputAbbreviatedPath": "\/assets\/images\/hack.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/hack.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/header-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
