@@ -3,3 +3,11 @@ document.addEventListener("DOMContentLoaded", function() {
 		a.setAttribute("role", "button");
 	});
 });
+
+$(window).scroll(function() {
+	if ($(document).scrollTop() > 0) {
+		$("body").addClass("nav-fixed");
+	} else {
+		$("body").removeClass("nav-fixed");
+	}
+});
