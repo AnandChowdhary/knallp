@@ -175,6 +175,10 @@ h5 {
 	border-width: 1px;
 	font-size: 95%;
 }
+.ghost-2:hover {
+	color: #cba13b;
+	background: rgba(203, 161, 59, 0.1);
+}
 .hero-text h1 {
 	margin-top: 100px;
 }
