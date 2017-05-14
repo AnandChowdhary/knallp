@@ -343,3 +343,7 @@ li { position: relative; }
 	font-family: "Baskerville", "Goudy Old Style", "Palatino", "Book Antiqua", serif;
 	font-style: italic;
 }
+
+.team .col-md-6 {
+	margin-bottom: 30px;
+}
