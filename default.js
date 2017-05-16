@@ -15,3 +15,14 @@ $(window).scroll(function() {
 $(".sub-nav").parent().click(function() {
 	$(this).find(".sub-nav").fadeToggle();
 });
+
+$(function() {
+	setTimeout(function() {
+		$("[data-featherlight]").click();
+	}, 100);
+});
+
+$(".agree-btn").click(function() {
+	var current = $.featherlight.current();
+	current.close();
+});
