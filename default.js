@@ -18,7 +18,14 @@ $(".sub-nav").parent().click(function() {
 
 $(function() {
 	setTimeout(function() {
-		$("[data-featherlight]").click();
+		if (typeof(Storage) !== "undefined") {
+			if (!sessionStorage.firstTime) {
+			$("[data-featherlight]").click();
+			sessionStorage.setItem("firstTime", "mine");
+		}
+		} else {
+			$("[data-featherlight]").click();
+		}
 	}, 100);
 });
 
