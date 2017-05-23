@@ -17,7 +17,7 @@ $(".sub-nav").parent().click(function() {
 });
 
 $(function() {
-	setTimeout(function() {
+	/*setTimeout(function() {
 		if (typeof(Storage) !== "undefined") {
 			if (!sessionStorage.firstTime) {
 			$("[data-featherlight]").click();
@@ -26,7 +26,7 @@ $(function() {
 		} else {
 			$("[data-featherlight]").click();
 		}
-	}, 100);
+	}, 100);*/
 });
 
 $(".agree-btn").click(function() {
