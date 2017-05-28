@@ -526,6 +526,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/garima.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 250125,
+		"inputAbbreviatedPath": "\/assets\/images\/garima.png",
+		"outputAbbreviatedPath": "\/assets\/images\/garima.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/hack.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -544,6 +555,28 @@
 		"initialSize": 190916,
 		"inputAbbreviatedPath": "\/assets\/images\/header-bg.jpg",
 		"outputAbbreviatedPath": "\/assets\/images\/header-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/imran.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 226316,
+		"inputAbbreviatedPath": "\/assets\/images\/imran.png",
+		"outputAbbreviatedPath": "\/assets\/images\/imran.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/kunal.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 246896,
+		"inputAbbreviatedPath": "\/assets\/images\/kunal.png",
+		"outputAbbreviatedPath": "\/assets\/images\/kunal.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -588,6 +621,28 @@
 		"initialSize": 29832,
 		"inputAbbreviatedPath": "\/assets\/images\/logo.png",
 		"outputAbbreviatedPath": "\/assets\/images\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/mohit.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 199126,
+		"inputAbbreviatedPath": "\/assets\/images\/mohit.png",
+		"outputAbbreviatedPath": "\/assets\/images\/mohit.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/puja.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 240139,
+		"inputAbbreviatedPath": "\/assets\/images\/puja.png",
+		"outputAbbreviatedPath": "\/assets\/images\/puja.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
