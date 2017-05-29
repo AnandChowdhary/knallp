@@ -482,6 +482,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/akansha.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15527,
+		"inputAbbreviatedPath": "\/assets\/images\/akansha.png",
+		"outputAbbreviatedPath": "\/assets\/images\/akansha.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/bb3d869c-hire-2.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -489,6 +500,17 @@
 		"initialSize": 1600,
 		"inputAbbreviatedPath": "\/assets\/images\/bb3d869c-hire-2.png",
 		"outputAbbreviatedPath": "\/assets\/images\/bb3d869c-hire-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/colonel.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 221685,
+		"inputAbbreviatedPath": "\/assets\/images\/colonel.png",
+		"outputAbbreviatedPath": "\/assets\/images\/colonel.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
