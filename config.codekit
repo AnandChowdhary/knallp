@@ -493,6 +493,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/balwinder.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 133079,
+		"inputAbbreviatedPath": "\/assets\/images\/balwinder.png",
+		"outputAbbreviatedPath": "\/assets\/images\/balwinder.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/bb3d869c-hire-2.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -522,6 +533,17 @@
 		"initialSize": 1851,
 		"inputAbbreviatedPath": "\/assets\/images\/da6a93bd-hire-3.png",
 		"outputAbbreviatedPath": "\/assets\/images\/da6a93bd-hire-3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/default.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13587,
+		"inputAbbreviatedPath": "\/assets\/images\/default.png",
+		"outputAbbreviatedPath": "\/assets\/images\/default.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
