@@ -10,7 +10,7 @@ $formproc = new FGContactForm();
 
 //1. Add your email address here.
 //You can add more than one receipients.
-$formproc->AddRecipient('kunalsachdeva826@gmail.com');
+$formproc->AddRecipient('kunalsachdeva826@gmail.com,sheetal16sanwal@gmail.com,niteshnirala1311@gmail.com');
  //<<---Put your email address here
 
 
