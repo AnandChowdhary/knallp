@@ -19,7 +19,14 @@
 		<meta name="application-name" content="K&amp;A LLP">
 		<meta name="msapplication-config" content="assets/icons/browserconfig.xml">
 		<meta name="theme-color" content="#404040">
-
+                
+		<script>
+  UPLOADCARE_LOCALE = "en";
+  UPLOADCARE_TABS = "file url gdrive dropbox";
+  UPLOADCARE_PUBLIC_KEY = "fcccaf1f1d5c6f217db9";
+</script>
+<script charset="utf-8" src="//ucarecdn.com/libs/widget/3.1.4/uploadcare.full.min.js"></script>
+		
 					<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="ssha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 			<link rel="stylesheet" href="https://anandchowdhary.github.io/ionicons-3-cdn/icons.css">
 			<link rel="stylesheet" href="default.css">
@@ -173,11 +180,13 @@
 								</div>
                                     
                                 
-    <div class='form-group'>
-	    <label for='resume' >Upload Resume:</label><br/>
-	    <input type="file" name='newupload' id='newupload' /><br/>
-	    <span id='contactus_newupload_errorloc' class='error'></span>
+        <div class='form-group'>
+	    <label for="post applied for">Upload your JPG Resume</label>
+	    <input type="hidden" role="uploadcare-uploader" name="Upload Your Resume"
+       data-crop="disabled"
+       data-images-only="true" />
 	</div>
+		
                                 
 								<div class="form-group">
 									<label for="messageControl">Message</label>
