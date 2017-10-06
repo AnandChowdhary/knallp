@@ -19,6 +19,13 @@
 		<meta name="application-name" content="K&amp;A LLP">
 		<meta name="msapplication-config" content="assets/icons/browserconfig.xml">
 		<meta name="theme-color" content="#404040">
+		
+		<script>
+  UPLOADCARE_LOCALE = "en";
+  UPLOADCARE_TABS = "file url gdrive dropbox";
+  UPLOADCARE_PUBLIC_KEY = "fcccaf1f1d5c6f217db9";
+</script>
+<script charset="utf-8" src="//ucarecdn.com/libs/widget/3.1.4/uploadcare.full.min.js"></script>
 
 					<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="ssha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 			<link rel="stylesheet" href="https://anandchowdhary.github.io/ionicons-3-cdn/icons.css">
@@ -157,8 +164,7 @@
 							
 					  </div>
 						<div class="col-md">
-							<form action="https://liveformhq.com/form/0e9d6013-4a5f-497d-8e7a-a70581879f7e" method="POST" accept-charset="utf-8">
- 
+							<form action="https://formspree.io/kunalsachdeva826@gmail.com" method="post" >
 								<div class="form-group">
 									<label for="name">Name</label>
 									<input type="text" class="form-control" id="name" placeholder="Enter your full name" name="persons_name">
@@ -185,10 +191,12 @@
                                 </div>    
                                 
     <div class='form-group'>
-	    <label for='resume' >Upload Resume:</label><br/>
-	    <input type="file" name='newupload' id='newupload' /><br/>
-	    <span id='contactus_newupload_errorloc' class='error'></span>
+	    <input type="hidden" role="uploadcare-uploader" name="Upload Your Resume"
+       data-crop="disabled"
+       data-images-only="true" />
 	</div>
+								
+								
                                 
                                 
 								<div class="form-group">
