@@ -6,7 +6,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
-                <script charset="utf-8" src="https://ucarecdn.com/libs/widget/3.1.4/uploadcare.full.min.js"></script>
+
 		<link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="194x194" href="assets/icons/favicon-194x194.png">
@@ -156,9 +156,38 @@
 							<img src="assets/images/intern.jpg" width="558" height="377" alt=""/> </div>
 							
 					  </div>
-						<div class='col-sm-8' style='font-size:13px'>
-            	  <iframe> src='http://www.ad1.in/contact/contactform.php' frameborder='0' width='100%' height='540' allowtransparency='true'</iframe>               
-</div>        
+						<div class="col-md">
+							<form action="https://formspree.io/kunalsachdeva826@gmail.com" method="post" >
+								<div class="form-group">
+									<label for="name">Name</label>
+									<input type="text" class="form-control" id="name" placeholder="Enter your full name" name="persons_name">
+								</div>
+								<div class="form-group">
+									<label for="exampleInputEmail1">Email Address</label>
+									<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email" name="_replyto">
+									<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+								</div>
+								<div class="form-group">
+									<label for="phoneControl">Contact No.</label>
+									<input type="tel" class="form-control" id="phoneControl" placeholder="Mobile No." name="phone">
+								</div>
+                                    
+                                
+    <div class='form-group'>
+	    <label for='resume' >Upload Resume:</label><br/>
+	    <input type="file" name='newupload' id='newupload' /><br/>
+	    <span id='contactus_newupload_errorloc' class='error'></span>
+	</div>
+                                
+								<div class="form-group">
+									<label for="messageControl">Message</label>
+									<textarea type="email" class="form-control" id="messageControl" aria-describedby="emailHelp" placeholder="Enter your email" name="message" style="height: 200px"></textarea>
+								</div>
+								<input type="hidden" name="_subject" value="New Contact Form submission">
+								<input type="hidden" name="_next" value="https://knallp.com/thanks">
+								<button class="btn btn-lg c2a" style="margin-left: 0 !important" type="submit">Send Your Request</button>
+							</form>
+						</div>
 					</div>
 				</div>
 			</section>
